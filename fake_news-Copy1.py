@@ -2,7 +2,7 @@
 #%%
 import pandas as pd
 
-train = pd.read_csv('/home/anuise/Documents/python/Data/fake-news/fake-news-pair-classification-challenge/train.csv', index_col=0, encoding='utf-8').astype(str)
+train = pd.read_csv('./train.csv', index_col=0, encoding='utf-8').astype(str)
 train.head(3)
 
 
@@ -242,7 +242,7 @@ history = model.fit(
 
 #%%
 import pandas as pd
-test = pd.read_csv('/home/anuise/Documents/python/Data/fake-news/fake-news-pair-classification-challenge/train.csv', index_col=0).astype(str)
+test = pd.read_csv('./train.csv', index_col=0, encoding='utf-8').astype(str)
 
 
 #%%
